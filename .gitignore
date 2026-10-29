@@ -1,0 +1,30 @@
+# Зависимости
+node_modules/
+
+# Сборка
+dist/
+build/
+
+# Логи
+*.log
+npm-debug.log*
+
+# Окружение
+.env
+.env.local
+
+# Редакторы
+.vscode/
+.idea/
+*.swp
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# Docker-тома (если появятся)
+data/
+
+# Тестовые файлы (по желанию)
+event.json
+body.json
