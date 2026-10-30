@@ -4,6 +4,14 @@ node_modules/
 # Сборка
 dist/
 build/
+.gradle/
+
+# Android Studio
+local.properties
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
 
 # Логи
 *.log
@@ -22,8 +30,8 @@ npm-debug.log*
 .DS_Store
 Thumbs.db
 
-# Docker-тома (если появятся)
-data/
+# Docker-тома (если появятся) — только в корне проекта
+/data/
 
 # Тестовые файлы (по желанию)
 event.json
